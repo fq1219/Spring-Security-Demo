@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springsecuritydemo.mapper.SysResourcesMapper">
+  <resultMap id="BaseResultMap" type="com.example.springsecuritydemo.entity.SysResources">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="RESOURCE_ID" jdbcType="VARCHAR" property="resourceId" />
+    <result column="RESOURCE_NAME" jdbcType="VARCHAR" property="resourceName" />
+    <result column="RESOURCE_DESC" jdbcType="VARCHAR" property="resourceDesc" />
+    <result column="RESOURCE_TYPE" jdbcType="VARCHAR" property="resourceType" />
+    <result column="RESOURCE_STRING" jdbcType="VARCHAR" property="resourceString" />
+    <result column="PRIORITY" jdbcType="INTEGER" property="priority" />
+    <result column="ENABLED" jdbcType="INTEGER" property="enabled" />
+    <result column="ISSYS" jdbcType="INTEGER" property="issys" />
+    <result column="MODULE" jdbcType="VARCHAR" property="module" />
+  </resultMap>
+</mapper>

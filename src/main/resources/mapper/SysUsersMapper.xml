@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springsecuritydemo.mapper.SysUsersMapper">
+  <resultMap id="BaseResultMap" type="com.example.springsecuritydemo.entity.SysUsers">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="USER_ID" jdbcType="VARCHAR" property="userId" />
+    <result column="USER_ACCOUNT" jdbcType="VARCHAR" property="userAccount" />
+    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+    <result column="USER_PASSWORD" jdbcType="VARCHAR" property="userPassword" />
+    <result column="USER_DESC" jdbcType="VARCHAR" property="userDesc" />
+    <result column="ENABLED" jdbcType="INTEGER" property="enabled" />
+    <result column="ISSYS" jdbcType="INTEGER" property="issys" />
+    <result column="USER_DEPT" jdbcType="VARCHAR" property="userDept" />
+    <result column="USER_DUTY" jdbcType="VARCHAR" property="userDuty" />
+    <result column="SUB_SYSTEM" jdbcType="VARCHAR" property="subSystem" />
+  </resultMap>
+</mapper>
